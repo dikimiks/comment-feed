@@ -16,13 +16,13 @@ body {
 
 .comment-content {
     display: flex; 
-    justify-content: space-between; 
-    align-items: center; 
+    flex-direction: column; 
 }
 
 .likes-wrapper {
     display: flex; 
     align-items: center;
+    margin-top: 10px; 
 }
 
 .likes-count {
@@ -53,6 +53,15 @@ body {
 
 #add-comment-button {
     padding: 10px;
+    background-color: #4CAF50;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-comment-button:hover {
+    background-color: #45a049; 
 }
 
 #post-image {
@@ -60,4 +69,34 @@ body {
     height: auto;        
     border-radius: 5px;  
     margin: 10px;
+}
+
+.reply-button,
+.delete-button {
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 24px; 
+    margin-left: 5px; 
+}
+
+.reply-button {
+    color: #008CBA; 
+}
+
+.delete-button {
+    color: #f44336; 
+}
+
+.reply-button:hover {
+    color: #007B9E; 
+}
+
+.delete-button:hover {
+    color: #c62828; 
+}
+
+.quoted-text {
+    color: blue; 
+    font-weight: bold; 
 }
