@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#post-container {
+    margin-bottom: 20px;
+}
+
+.comment {
+    margin-bottom: 15px; 
+    padding: 10px; 
+    border: 2px solid #000000; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+.comment-content {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.likes-wrapper {
+    display: flex; 
+    align-items: center;
+    margin-top: 10px; 
+}
+
+.likes-count {
+    margin-right: 10px; 
+}
+
+.heart {
+    cursor: pointer;
+    font-size: 24px;
+    color: white; 
+    background: transparent; 
+    border: none; 
+    display: inline-block; 
+}
+
+.heart.liked {
+    color: red; 
+}
+
+#add-comment {
+    margin-top: 20px;
+}
+
+#comment-input {
+    padding: 10px;
+    width: 300px;
+}
+
+#add-comment-button {
+    padding: 10px;
+    background-color: #4CAF50;  
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-comment-button:hover {
+    background-color: #45a049; 
+}
+
+#post-image {
+    width: 700px;     
+    height: auto;        
+    border-radius: 5px;  
+    margin: 10px;
+}
+
+.reply-button,
+.delete-button {
+    background: none; 
+    border: none; 
+    cursor: pointer; 
+    font-size: 24px; 
+    margin-left: 5px; 
+}
+
+.reply-button {
+    color: #008CBA; 
+}
+
+.delete-button {
+    color: #f44336; 
+}
+
+.reply-button:hover {
+    color: #007B9E; 
+}
+
+.delete-button:hover {
+    color: #c62828; 
+}
+
+.quoted-text {
+    color: blue; 
+    font-weight: bold; 
+}
