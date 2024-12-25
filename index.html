@@ -3,24 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Пост с комментариями</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Комментарии</title>
 </head>
 <body>
-    <div id="post-container">
-        <h1>Привет!</h1>
-        <img src="istockphoto-1793203185-2048x2048.img" alt="Картинка поста" id="post-image">
-        <p>Разнообразие подводного мира</p>
-    </div>
-    
+    <input type="text" id="author-input" placeholder="Ваше имя...">
+    <input type="text" id="comment-input" placeholder="Ваш комментарий...">
+    <button id="add-comment-button">Добавить комментарий</button>
     <div id="comments-container"></div>
-    
-    <div id="add-comment">
-        <input type="text" id="author-input" placeholder="Ваше имя..." required>
-        <input type="text" id="comment-input" placeholder="Добавьте комментарий..." required>
-        <button id="add-comment-button">Добавить комментарий</button>
-    </div>
-    
-    <script src="script.js"></script> 
+
+    <script type="module" src="./index.js"></script>
 </body>
 </html>
