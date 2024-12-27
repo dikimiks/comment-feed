@@ -72,3 +72,4 @@ export function handleAddComment() {
     renderComments();
   }
 }
+
